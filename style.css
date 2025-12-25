@@ -249,3 +249,30 @@ nav img:not(:first-child):focus {
 #value::-webkit-scrollbar-thumb:hover {
     background: aqua;
 }
+
+@media(max-width:768px) {
+    #container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid #334155;
+    }
+
+    #webpage {
+        margin-left: 0;
+    }
+
+    #search {
+        margin-right: 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
